@@ -12,3 +12,23 @@
 #description {
     text-align: center;
 }
+
+#survey-form {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin: auto;
+}
+
+label {
+    color: white;
+    text-align: center;
+}
+
+#name,
+#email,
+#number,
+#submit {
+    width: 80%;
+    margin: 10px auto;
+}
