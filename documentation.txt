@@ -24,11 +24,11 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 GABE stories
 /////////////////////////////////////////////////////////////////
-Gabestory #1: Build this with flexbox.  Make the entire form flexbox
-    and enclose a form box inside that will be flexbox.
+****Gabestory #1: Build this with flexbox.  Make the entire form flexbox
+****    and enclose a form box inside that will be flexbox.
 ****Gabestory #2: Build entire project locally with vscode.
-Gabestory #3: Use GIT and Github (and make a GIT Repository) and 
-    push each days changes to it.  
+****Gabestory #3: Use GIT and Github (and make a GIT Repository) and 
+****    push each days changes to it.  
 Gabestory #4: When project is complete make a codepen to submit it 
     to freeCodeCamp.  
 ****Gabestory #5: Create a separate documentation file to serve as a todo
@@ -64,11 +64,11 @@ FREE CODE CAMP User stories
 ****User Story #12: Inside the form element, I can select an option 
 ****    from a dropdown that has a corresponding id="dropdown".
 ****Gabestory #6: This dropdown will let users select phone# format.
-Gabestory #7: Write a function that will change the format required if
-    Mexico is selected.  
-User Story #13: Inside the form element, I can select a field from 
-    one or more groups of radio buttons. Each group should be grouped 
-    using the name attribute.
+****Gabestory #7: Write a function that will change the format required if
+****    Mexico is selected.  
+****User Story #13: Inside the form element, I can select a field from 
+****    one or more groups of radio buttons. Each group should be grouped 
+****    using the name attribute.
 User Story #14: Inside the form element, I can select several fields 
     from a series of checkboxes, each of which must have a value 
     attribute.
