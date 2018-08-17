@@ -33,6 +33,9 @@ Gabestory #4: When project is complete make a codepen to submit it
     to freeCodeCamp.  
 ****Gabestory #5: Create a separate documentation file to serve as a todo
 ****    list and give insight into decision making process.  
+Gabestory #6: Give the project some minimalistic style.
+        -- Give the background outside the Surfey-Form a background-color (whipped papaya?)
+        --Give the same background color to the labels that appear.  
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 FREE CODE CAMP User stories
@@ -69,11 +72,11 @@ FREE CODE CAMP User stories
 ****User Story #13: Inside the form element, I can select a field from 
 ****    one or more groups of radio buttons. Each group should be grouped 
 ****    using the name attribute.
-User Story #14: Inside the form element, I can select several fields 
-    from a series of checkboxes, each of which must have a value 
-    attribute.
-User Story #15: Inside the form element, I am presented with a 
-    textarea at the end for additional comments.
+****User Story #14: Inside the form element, I can select several fields 
+****    from a series of checkboxes, each of which must have a value 
+****    attribute.
+****User Story #15: Inside the form element, I am presented with a 
+****    textarea at the end for additional comments.
 ****User Story #16: Inside the form element, I am presented with a 
 ****    button with id="submit" to submit all my inputs.
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
