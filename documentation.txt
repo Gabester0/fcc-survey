@@ -33,9 +33,9 @@ Gabestory #4: When project is complete make a codepen to submit it
     to freeCodeCamp.  
 ****Gabestory #5: Create a separate documentation file to serve as a todo
 ****    list and give insight into decision making process.  
-Gabestory #6: Give the project some minimalistic style.
-        -- Give the background outside the Surfey-Form a background-color (whipped papaya?)
-        --Give the same background color to the labels that appear.  
+****Gabestory #6: Give the project some minimalistic style.
+**** -- Give the background outside the Surfey-Form a background-color (whipped papaya?)
+XXXX --Give the same background color to the labels that appear.  
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 FREE CODE CAMP User stories

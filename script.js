@@ -1,4 +1,5 @@
 const form = document.getElementById("survey-form");
+const container = document.getElementsByClassName("container");
 const label = document.querySelectorAll("label");
 const dropDown = document.getElementById("dropdown");
 const number = document.getElementById("number");
@@ -13,11 +14,10 @@ form.addEventListener('mouseenter', e => {
     dropDown.style.color = "black";
 });
 
-form.addEventListener('mouseleave', e=>{
+container[0].addEventListener('focusout', e =>{
     label.forEach(l => l.style.color = "white");
     dropDown.style.color = "white";
-});
-
+})
 
 dropDown.addEventListener("change", e =>{ 
     var sel = dropDown.value;
