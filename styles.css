@@ -1,13 +1,16 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
-    margin: auto;
+    margin: 25px auto;
     background-color: papayawhip;
+    border-radius: 1.5%;
 }
 
 #title {
@@ -45,9 +48,72 @@ label,
     margin: 10px auto;
 }
 
+#submit {
+    height: 35px;
+    transition: background 0.5s ease-in-out;
+}
+
+#submit:hover {
+    background-color: white;
+    border: 0px;
+}
+
 .flexRow {
     width: 80%;
     margin: 10px auto;
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 920px){
+    .container {
+        width: 70vw;
+    }
+
+    #survey-form {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 800px){
+    .container{
+        width: 80vw;
+    }
+    
+    #survey-form {
+        width: 80vw;
+    }
+    
+    .flexRow {
+        height: 100px;
+    }
+
+    .flexRow label {
+        transform: rotate(45deg);
+    }
+
+}
+
+@media (max-width: 600px){
+    
+    .container {
+        width: 90vw;
+    }
+    
+    #survey-form {
+        width: 90vw;
+    }
+
+}
+
+
+@media (max-width: 500px){
+    .container{
+        width: 100vw;
+        margin: 0;
+    }
+    
+    #survey-form {
+        width: 100vw;
+    }
 }
