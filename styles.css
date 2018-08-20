@@ -74,6 +74,10 @@ label,
         width: 70vw;
     }
 
+    .flexRow label {
+        margin-left: 0;
+    }
+
     .flexRow {
         flex-direction: column;
     }
@@ -87,15 +91,6 @@ label,
     #survey-form {
         width: 80vw;
     }
-/*     
-    .flexRow {
-        height: 100px;
-    }
-
-    .flexRow label {
-        transform: rotate(45deg);
-    } */
-
 }
 
 @media (max-width: 600px){
