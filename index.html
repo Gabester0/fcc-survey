@@ -49,12 +49,14 @@
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
                     required>
             <label for="pickYourPet">Pick a pet</label>
-        
             <div class="flexRow">
-                    <label><input value="1" type="radio" name="pickYourPet">Cat</label>
-                    <label><input value="2" type="radio" name="pickYourPet">Dog</label>
-                    <label><input value="3" type="radio" name="pickYourPet">Both</label>
-                    <label><input value="4" type="radio" name="pickYourPet">Neither</label>                    
+                    <label><input type="radio" name="pickYourPet" value="cat">Cat</label>
+                    <label><input type="radio" name="pickYourPet"
+                                  value="dog">Dog</label>
+                    <label><input type="radio" name="pickYourPet"
+                                  value="both">Both</label>
+                    <label><input type="radio" name="pickYourPet"
+                                  value="neither">Neither</label>                    
             </div>
             <br>
             <label for="houses">Pick a house</label>
@@ -64,7 +66,6 @@
                     <label><input name="houses" type="checkbox" value="Ravenclaw">Ravenclaw</label>
                     <label><input name="houses" type="checkbox" value="Slytherin">Slytherin</label>
             </div>
-        
             <br>
             <label for="textArea">Share your comments</label>
             <textarea type="text" id="textArea"></textarea>
@@ -74,7 +75,6 @@
     </div>
     
 <script src="script.js"></script>
-<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
